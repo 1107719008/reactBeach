@@ -46,7 +46,7 @@ export default function MostPopular({ PopActs }) {
                             slidesToShow={3}
                             slidesToScroll={3}
                             adaptiveHeight={true}
-                            infinite={false}
+                            infinite={true}
                             nextArrow={<SampleNextArrow />}
                             prevArrow={<SamplePrevArrow />}
                             style={{width:"100%",
