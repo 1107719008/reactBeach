@@ -364,10 +364,10 @@ a:link{
   z-index: -2;
   border-radius: 1.66em;
 }
-.card-image-bg:hover{
+/* .card-image-bg:hover{
  
   
-}
+} */
 
 
 .select-right-btn {
@@ -589,6 +589,16 @@ footer {
   margin-left: 2rem;
   font-size: 1.2rem;
   font-weight: 900;
+}
+.ant-carousel .slick-dots{
+  margin: 0;
+}
+.slick-dots li button:before{
+  font-family: none !important;
+  font-size: 0px !important;
+
+  width: 0px;
+  height: 0px;
 }
 
 /* 圖卡 */
@@ -873,7 +883,7 @@ footer {
 }
 
 .intro-search-bar .ant-input-affix-wrapper-lg {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .intro-search-bar .ant-input:focus {

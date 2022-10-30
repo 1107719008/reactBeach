@@ -28,7 +28,7 @@ function Introduction() {
           autoplay
           draggable
         >
-          <div style={{position:"relative", textAlign: 'center'}}>
+          <div style={{position:"relative"}}>
             <img src= "https://i.imgur.com/SQAWWrI.jpg" style={contentStyle} alt='SUP 立槳衝浪'/>
             <h2 className="intro-carousel-word">SUP 立槳衝浪</h2>
           </div>
