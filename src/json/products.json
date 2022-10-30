@@ -1,0 +1,87 @@
+[
+    { 
+      "id": "1",
+      "category": "獨木舟",
+      "name": "單人獨木舟",
+      "price": 150,
+      "image": "https://i.imgur.com/8u7bBfN.png"
+    },
+    {
+      "id": "2",
+      "category": "獨木舟",
+      "name": "雙人獨木舟",
+      "price": 200,
+      "image": "https://i.imgur.com/jdNECde.png"
+    },
+    {
+      "id": "3",
+      "category": "獨木舟",
+      "name": "透明獨木舟",
+      "price": 350,
+      "image": "https://i.imgur.com/1AJT2at.jpg"
+    },
+    {
+      "id": "4",
+      "category": "SUP立槳",
+      "name": "直立板",
+      "price": 200,
+      "image": "https://i.imgur.com/5flKizp.png"
+    },
+    {
+      "id": "5",
+      "category": "衝浪",
+      "name": "衝浪板",
+      "price": 500,
+      "image": "https://i.imgur.com/PriaFHr.png"
+  
+    },
+    {
+      "id": "6",
+      "category": "衝浪",
+      "name": "趴板",
+      "price": 200,
+      "image": "https://i.imgur.com/T4btdgY.jpg"
+    },
+    {
+      "id": "7",
+      "category": "衝浪",
+      "name": "防磨衣",
+      "price": 100,
+      "image": "https://i.imgur.com/oRXDTkN.png"
+    },
+    {
+      "id": "8",
+      "category": "浮潛/深潛",
+      "name": "潛水套裝（深淺)",
+      "price": 500,
+      "image": "https://i.imgur.com/hz7vlwz.png"
+    },  
+    {
+      "id": "9",
+      "category": "浮潛/深潛",
+      "name": "蛙鞋",
+      "price": 150,
+      "image": "https://i.imgur.com/nIEOuKc.png"
+    },
+    {
+      "id": "10",
+      "category": "浮潛/深潛",
+      "name": "面鏡+呼吸管",
+      "price": 100,
+      "image": "https://i.imgur.com/RVJsgRB.png"
+    },  
+    {
+      "id": "11",
+      "category": "其他",
+      "name": "防水袋",
+      "price": 80,
+      "image": "https://i.imgur.com/980kScH.png"
+    },
+    {
+      "id": "12",
+      "category": "活動套組",
+      "name": "水上活動八合一",
+      "price": 600,
+      "image": "https://i.imgur.com/8oLd7ve.png"
+    }
+  ]

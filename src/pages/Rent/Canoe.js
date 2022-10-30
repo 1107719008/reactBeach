@@ -1,16 +1,16 @@
 import { Layout } from 'antd';
-import AppHeader from "../components/Header"
-import AppFooter from "../components/Footer"
-import products from "../json/products.json";
+import AppHeader from "../../components/Header"
+import AppFooter from "../../components/Footer"
+import canoe from "../../json/RentItem/canoe.json";
 import { Row, Col } from "antd";
-import RentProductItem from "../components/RentProductItem";
-import RentNavbar from "../components/RentNavbar";
-import IntroSearchBar from "../components/IntroSearchBar";
+import RentProductItem from "../../components/RentProductItem";
+import RentNavbar from "../../components/RentNavbar";
+import IntroSearchBar from "../../components/IntroSearchBar";
 import React, { useState } from 'react';
 
 const { Header, Content, Footer } = Layout;
 
-function RentProduct() {
+function Canoe() {
   const [isOnTouch, setIsOnTouch] = useState(false);
   return (
     <Layout className="container main-layout">
@@ -43,7 +43,7 @@ function RentProduct() {
               </div>
             </div>
             <Row gutter={[24, 24]} >
-              {products.map(product => (
+              {canoe.map(product => (
                   <Col 
                   key={product.id} 
                   sm={{ span: 24 }} 
@@ -66,4 +66,4 @@ function RentProduct() {
   );
 }
 
-export default RentProduct;
+export default Canoe;
