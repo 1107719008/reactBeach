@@ -49,10 +49,12 @@ export default function MostPopular({ PopActs }) {
                             infinite={true}
                             nextArrow={<SampleNextArrow />}
                             prevArrow={<SamplePrevArrow />}
-                            style={{width:"100%",
-                            display:"flex",
-                            justifyContent:"center"
-                        ,alignitems:"center"}}
+                            style={{
+                                width: "100%",
+                                display: "flex",
+                                justifyContent: "center"
+                                , alignitems: "center"
+                            }}
                         >
 
                             {PopActs.map(Popcard => (

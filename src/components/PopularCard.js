@@ -6,17 +6,17 @@ export default function PopularCard({ Popcard }) {
 
             <div className='popularobjectcard'>
                 <img
-                    src={Popcard.imageurl}
+                    src={Popcard.eventpicone_url}
                     alt='' />
                 <img className="card-image-bg"
                     src="/image/Rectangle45.png"
                     alt='' />
                 <div className="card-down-object">
                     <div className="card-down-object-title">
-                        {Popcard.activity}
+                        {Popcard.category}
                     </div>
                     <div className="card-down-object-place">
-                        {Popcard.title}
+                        {Popcard.eventname}
                     </div>
                     <img className="more-btn"
                         src="/image/Frame1.png"

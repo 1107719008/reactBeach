@@ -7,19 +7,19 @@ export default function IntroCategory() {
                 className={(navData) => (navData.isActive ? 'intro-category-items intro-category-items--active' : 'intro-category-items')}>
                 <div className='intro-category-item '>#</div>
             </NavLink>
-            <NavLink to="/category/澎湖"
+            <NavLink to="/category/penghu"
                 className={(navData) => (navData.isActive ? 'intro-category-items intro-category-items--active' : 'intro-category-items')}>
                 <img src= "https://i.imgur.com/2U5uAW7.png" className='intro-category-item'/>
             </NavLink>
-            <NavLink to="/category/綠島"
+            <NavLink to="/category/greenIsland"
                 className={(navData) => (navData.isActive ? 'intro-category-items intro-category-items--active' : 'intro-category-items')}>
                 <img src= "https://i.imgur.com/TSLdnou.png" className='intro-category-item'/>
             </NavLink>
-            <NavLink to="/category/小琉球"
+            <NavLink to="/category/little"
                 className={(navData) => (navData.isActive ? 'intro-category-items intro-category-items--active' : 'intro-category-items')}>
                 <img src= "https://i.imgur.com/G51bg9o.png" className='intro-category-item'/>
             </NavLink>
-            <NavLink to="/category/蘭嶼"
+            <NavLink to="/category/lanyu"
                 className={(navData) => (navData.isActive ? 'intro-category-items intro-category-items--active' : 'intro-category-items')}>
                 <img src= "https://i.imgur.com/dfCcHTO.png" className='intro-category-item'/>
             </NavLink>

@@ -3,8 +3,21 @@ import { NavLink } from 'react-router-dom';
 import { Row, Col } from "antd";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'
-
+import { useNavigate } from 'react-router-dom';
+import { selectUserInfo, selectIsRemember } from "../redux/usersSlice";
+import { useSelector } from "react-redux";
+import CartSummary from './CartSummary';
 export default function NavBar() {
+
+    const navigate = useNavigate();
+    const userInfo = useSelector(selectUserInfo);
+    const goToProfile = () => {
+      if (!userInfo)
+         navigate("/auth/login?redirect=/auth/account");
+      else
+         navigate("/auth/account");
+   };
+
     return (
         <div className="nav-bar-2">
             <Row className='main-container'>
@@ -40,14 +53,17 @@ export default function NavBar() {
                     xxl={{ span: 7 }}                    
                 >
                     <div className='header-right-2'>
-                        <NavLink to="/"
+                    <CartSummary/>
+                       {/* <NavLink to="/"
                             className={(navData) => (navData.isActive ? 'header-right-icon2 header-right-icon--active2' : 'header-right-icon2')}>
                             <FontAwesomeIcon icon={faCartShopping} className='header-right-icon2'/>
                         </NavLink>
-                        <NavLink to="/"
+    */}
+                        <nav
+                            onClick={goToProfile}
                             className={(navData) => (navData.isActive ? 'header-right-icon2 header-right-icon--active2' : 'header-right-icon2')}>
                             <FontAwesomeIcon icon={faUser} className='header-right-icon2'/>
-                        </NavLink>
+                        </nav>
                     </div>
                 </Col>
             </Row>

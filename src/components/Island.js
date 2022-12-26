@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Island() {
     return (
         <div className="islandbox">
-            <Link to={`/category/澎湖`}
+            <Link to={`/category/penghu`}
             style={{ color:"black"}}
             >
                 <div className="islandcard"
@@ -15,7 +15,7 @@ export default function Island() {
                     <div className="island-font">澎湖</div>
                 </div>
             </Link>
-            <Link to={`/category/小琉球`}
+            <Link to={`/category/little`}
             style={{ color:"black"}}
             >
                 <div className="islandcard">
@@ -25,7 +25,7 @@ export default function Island() {
                     <div className="island-font">小琉球</div>
                 </div>
             </Link>
-            <Link to={`/category/綠島`}
+            <Link to={`/category/greenIsland`}
             style={{ color:"black"}}
             >
                 <div className="islandcard">
@@ -35,7 +35,7 @@ export default function Island() {
                     <div className="island-font">綠島</div>
                 </div>
             </Link>
-            <Link to={`/category/蘭嶼`}
+            <Link to={`/category/lanyu`}
             style={{ color:"black"}}
             >
                 <div className="islandcard">
@@ -46,5 +46,7 @@ export default function Island() {
                 </div>
             </Link>
         </div>
+    
+        
     )
 }
