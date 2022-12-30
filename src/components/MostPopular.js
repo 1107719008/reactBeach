@@ -28,7 +28,7 @@ export default function MostPopular({ PopActs }) {
     return (
         <div className="popularbox"
             style={{
-                backgroundImage: `url("https://i.imgur.com/L2H7Co7.png")`
+                backgroundImage: `url("https://i.imgur.com/D8jYbcq.png")`
             }}>
 
 

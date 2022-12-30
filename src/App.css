@@ -94,12 +94,15 @@ a:link{
 .nav-background {
   width: 100%;
   position: absolute;
-  margin-top: -127.97px;
+  margin-top: -20vh;
   z-index: 0;
 }
 
 .nav-background-image {
   z-index: 1;
+ 
+  height: 100vh;
+  object-fit: cover;
 }
 
 .nav-bar .main-container{
@@ -113,6 +116,7 @@ a:link{
   margin-left: 84px; */
   margin-bottom: 0;
 }
+
 .nav-item {
   color: #ffffff;
 }
@@ -213,8 +217,7 @@ a:link{
 }
 
 .searchbox {
-  margin-bottom: 222px;
-
+  height: 90vh;
 }
 
 .search-input {
@@ -235,14 +238,14 @@ a:link{
 }
 
 .islandbox {
-  margin-top: 75px;
+  /* margin-top: 75px;
   margin-bottom: 15px;
   height: 423px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 260px;
-  padding-right: 260px;
+  padding-right: 260px; */
   
 }
 
@@ -254,15 +257,15 @@ a:link{
 }
 
 .island-font {
-  font-size: 1.62em;
+  font-size: 1.2rem;
   margin-top: 12px;
-  
-  
+  color: #141414;
+  font-weight: 700;
 }
 
 .island-one-background {
   transition: 0.2s;
-  
+  width: 7rem;
 }
 
 .island-one-background:hover {
