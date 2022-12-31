@@ -1,5 +1,5 @@
 import axios from "axios"
-const URL = "https://finalbackend-production-43e6.up.railway.app/api/v1"
+const URL = "https://finalbackend-production-43e6.up.railway.app/"
 //const URL = "http://127.0.0.1:5000/api/v1"
 
 export const getActivities = async ({ queryKey }) => {
